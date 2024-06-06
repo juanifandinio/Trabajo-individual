@@ -70,7 +70,7 @@ header{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
 
     img{
         position: absolute;
@@ -87,14 +87,13 @@ header{
         align-items: flex-start;
         gap: 2rem;
         position: absolute;
-        padding-bottom: 10%;
         padding-left: 5%;
 
 
         h1{
             color: #F5F5DC;
             font-family: "Roboto Slab";
-            font-size: 4rem;
+            font-size: 3rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -106,7 +105,7 @@ header{
             color: #F5F5DC;
             text-align: center;
             font-family: "Roboto Slab";
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -118,6 +117,7 @@ header{
 
 .seccion2{
     display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -126,6 +126,7 @@ header{
     background: #F5F5DC;
     padding-top: 10%;
     padding-bottom: 5%;
+    
 
     
     img{
@@ -170,29 +171,35 @@ header{
 
 
 .seccion3 {
+
     color: #1A1A1A;
     font-family: "Inter", sans-serif;
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 1.8125rem;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     margin: 0;
     background: #F5F5DC;
 
+    p{
+        width: 70%;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
 
-    
+
+     
   }
   
   .progress-bar {
     width: 100%;
-    max-width: 70%;
+    max-width: 80%;
     background-color: #1A1A1A;
     border-radius: 25px;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 5px;
   }
   
@@ -361,8 +368,8 @@ header{
 
 .footer{
     width: 100%;
-    height: 250px;
     padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #1A1A1A;
     display: flex;
     flex-direction: row;
@@ -431,5 +438,63 @@ header{
 
 
 }
-  
+
+@media screen and (max-width: 1200px) {
+    .seccion2{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            display: none;
+        }
+
+        .presentacion{
+            width: 80%;
+        }
+
+
+    }
+
+    .seccion4{
+
+        img{
+            display: none;
+        }
+
+        .texto{
+            width:80%;
+        }
+    }
+
+    .seccion5{
+        img{
+            display: none;
+        }
+
+        .texto{
+            width:80%;
+        } 
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        
+        height: auto;
+        padding-left: 10%;
+
+        .logofooter{
+            padding-bottom: 50px;
+        }
+
+        .informacion{
+            padding-bottom: 50px;
+        }
+
+        .botonerafooter{
+            padding-bottom: 50px;
+        }
+    }
+}
+
  
