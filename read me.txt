@@ -1,0 +1,12 @@
+# Proyecto Individual
+
+Este trabajo fue realizado previamente maquetado en figma utilizando autolayout,luego comenzó la pasada a código
+empecé realizando el Index.html en donde hice un header con un nav con 3 listas que cambian a distintos htmls, el navegador cambia de disposición según estemos en modo mobile o en modo web, luego hice un main y lo dividi en secciones, primero una foto de presentación que cambia en la version mobile para una buena visualizacion, mi nombre en h1 y mi profesión, luego comienza una breve presentación sobre mi con una foto que en el modo mobile no se ve y una breve descripción sobre mi, luego realice una barra con @media animada que muestra mi nivel de conocimientos en distintas disiplinas, se puede ver tanto en la version web como en la mobile. luego la sección de estudios cuenta con ilustraciones y datos, estas ilustraciones en el modo mobile desaparecen dándole asi una mejor legibilidad a los datos, para concluir con el index vemos el footer que cambia de disposición según la pantalla si es mobile esta en vertical y si es web esta en horizontal.
+
+luego tenemos el html de galería en donde cuenta con una galería de imágenes con trabajos mios realizados en otras materias en donde tocas la foto y se abre un nuevo html en donde muestra el trabajo completo, abajo de todo tenes un botón que dice volver para volver a la galería. además en este html tenemos un video de presentación de marca con un autoplay loop muted para poder visualizar en video uno de mis diseños.
+
+Tenemos otro html en donde tenemos un formulario que podes poner tus datos personales y podes escribir un mensaje, al apretar el botón enviar te manda a una casilla de email.
+
+las tipografías utilizadas fueron Roboto Slab para los títulos y Inter para los bloques de texto, la paleta cromática utilizada fue: #F5F5DC #5E6A38 #1A1A1A
+
+Link de Figma: https://www.figma.com/design/xZuGFjtiMTNgGJLYwzDJpm/Trabajo-Personal?node-id=114-90&t=uBN0K6fjKvEwjHz4-0
