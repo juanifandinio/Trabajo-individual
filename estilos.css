@@ -364,7 +364,7 @@ header{
 }
 
 .formulario{
-    .container{
+    main{
         width: 100%;    
         display: flex;
         flex-direction: column;
@@ -375,7 +375,6 @@ header{
         padding-bottom: 10%;
 
         h2{
-
             color: #5E6A38;
             font-family: "Roboto Slab";
             font-size: 2.5rem;
@@ -385,13 +384,11 @@ header{
             margin-bottom:50px ;
         }
     }
+    
     form{
-        
         display: flex;
         flex-direction: row;
         gap: 10%;
-    
-
     }
 
     .form-group{
@@ -410,7 +407,6 @@ header{
         border: none;
         width: 400px;
         height: 30px;
-        
     }
 
 
@@ -426,13 +422,11 @@ header{
         gap: 10%;
 
         textarea{
-        
             border-radius: 0.3125rem;
             background: #5E6A38;
             border: none;
             width: 400px;
             height: 250px;
-        
         }
 
         button{
@@ -454,15 +448,12 @@ header{
             line-height: normal;
             cursor: pointer;
             transition: 0.2s;
-
         }
 
         button:hover{
             background:#F5F5DC;
             color:#5E6A38;
-
         }
-
     }
 
     label{
@@ -479,12 +470,12 @@ header{
     padding-top: 10%;
     padding-bottom: 10%;
     background-color:  #F5F5DC;;
+    
     .galeria {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
         width: 60%;
-        max-width: 1200px;
         margin: 0 auto;
         background-color: #5E6A38;
         padding: 40px;
@@ -510,6 +501,270 @@ header{
         height: auto;
         display: block;
         border-radius: 10px;
+    }
+}
+.elprincipito{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
+    }
+}
+.nomada{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
+    }
+}
+.reikawakubo{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
+    }
+}
+.jordan{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
+    }
+}
+.afichefigurativo{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
+    }
+}
+.ilustraciones{
+    background-color: #1A1A1A;
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imagenes{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .boton{
+            background-color: #1A1A1A; 
+            padding-bottom: 30px;
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                width: 300px;
+                height: 70px;
+                background: #5E6A38;
+                border: none;
+                border-radius: 0.3125rem;
+                color: #F5F5DC;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+
+            button:hover{
+                background:#F5F5DC;
+                color:#5E6A38;
+            }
+        }
     }
 }
 
@@ -665,20 +920,13 @@ header{
             margin-left: 10%;
         }
     }
-
     .formulario{
-        .container{
+        main{
 
             form{
                 flex-direction: column;
                 gap: 50px;
             }
-        }
-    }
-
-    .galeriamain{
-        galeria{
-            
         }
     }
 }
